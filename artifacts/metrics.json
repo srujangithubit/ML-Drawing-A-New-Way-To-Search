@@ -1,0 +1,162 @@
+{
+  "classes": [
+    "teddy-bear",
+    "peas",
+    "The Mona Lisa",
+    "nose",
+    "hockey stick",
+    "speedboat",
+    "harp",
+    "rain",
+    "star",
+    "wristwatch"
+  ],
+  "seed": 42,
+  "samples_per_class_cap": 4000,
+  "sample_counts": {
+    "train": 32000,
+    "validation": 4000,
+    "test": 4000
+  },
+  "best_validation_accuracy": 0.91425,
+  "test_accuracy": 0.9055,
+  "classification_report": {
+    "teddy-bear": {
+      "precision": 0.9323671497584541,
+      "recall": 0.965,
+      "f1-score": 0.9484029484029484,
+      "support": 400.0
+    },
+    "peas": {
+      "precision": 0.7470997679814385,
+      "recall": 0.805,
+      "f1-score": 0.7749699157641395,
+      "support": 400.0
+    },
+    "The Mona Lisa": {
+      "precision": 0.9388753056234719,
+      "recall": 0.96,
+      "f1-score": 0.9493201483312732,
+      "support": 400.0
+    },
+    "nose": {
+      "precision": 0.9081632653061225,
+      "recall": 0.89,
+      "f1-score": 0.898989898989899,
+      "support": 400.0
+    },
+    "hockey stick": {
+      "precision": 0.9445843828715366,
+      "recall": 0.9375,
+      "f1-score": 0.9410288582183187,
+      "support": 400.0
+    },
+    "speedboat": {
+      "precision": 0.8896713615023474,
+      "recall": 0.9475,
+      "f1-score": 0.9176755447941889,
+      "support": 400.0
+    },
+    "harp": {
+      "precision": 0.9544235924932976,
+      "recall": 0.89,
+      "f1-score": 0.9210866752910737,
+      "support": 400.0
+    },
+    "rain": {
+      "precision": 0.9236641221374046,
+      "recall": 0.9075,
+      "f1-score": 0.9155107187894073,
+      "support": 400.0
+    },
+    "star": {
+      "precision": 0.9390862944162437,
+      "recall": 0.925,
+      "f1-score": 0.9319899244332494,
+      "support": 400.0
+    },
+    "wristwatch": {
+      "precision": 0.8921832884097035,
+      "recall": 0.8275,
+      "f1-score": 0.8586251621271076,
+      "support": 400.0
+    },
+    "accuracy": 0.9055,
+    "macro avg": {
+      "precision": 0.9070118530500022,
+      "recall": 0.9055000000000002,
+      "f1-score": 0.9057599795141605,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.9070118530500021,
+      "recall": 0.9055,
+      "f1-score": 0.9057599795141605,
+      "support": 4000.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 1.078700492143631,
+      "val_accuracy": 0.78525
+    },
+    {
+      "epoch": 2.0,
+      "train_loss": 0.6295682948827743,
+      "val_accuracy": 0.8395
+    },
+    {
+      "epoch": 3.0,
+      "train_loss": 0.5260762860774993,
+      "val_accuracy": 0.85425
+    },
+    {
+      "epoch": 4.0,
+      "train_loss": 0.4634067893028259,
+      "val_accuracy": 0.868
+    },
+    {
+      "epoch": 5.0,
+      "train_loss": 0.42083909749984744,
+      "val_accuracy": 0.88125
+    },
+    {
+      "epoch": 6.0,
+      "train_loss": 0.38205895459651945,
+      "val_accuracy": 0.885
+    },
+    {
+      "epoch": 7.0,
+      "train_loss": 0.3569485692381859,
+      "val_accuracy": 0.8915
+    },
+    {
+      "epoch": 8.0,
+      "train_loss": 0.33267122197151183,
+      "val_accuracy": 0.90025
+    },
+    {
+      "epoch": 9.0,
+      "train_loss": 0.3085286492109299,
+      "val_accuracy": 0.90575
+    },
+    {
+      "epoch": 10.0,
+      "train_loss": 0.29353469944000243,
+      "val_accuracy": 0.90725
+    },
+    {
+      "epoch": 11.0,
+      "train_loss": 0.2750762867629528,
+      "val_accuracy": 0.904
+    },
+    {
+      "epoch": 12.0,
+      "train_loss": 0.25908667394518853,
+      "val_accuracy": 0.91425
+    }
+  ],
+  "device": "cpu",
+  "architecture": "CompactCNN: Conv(16)-Pool-Conv(32)-Pool-FC(128)-Dropout-Softmax"
+}
